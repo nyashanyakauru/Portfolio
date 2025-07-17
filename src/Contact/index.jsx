@@ -68,7 +68,7 @@ const Contact = () => {
           <div className="contact__content__infoCard">
             <h4>Contact Info</h4>
             <ul>
-              <li><MdEmail /> nyasha@example.com</li>
+              <li><MdEmail /> nyakaurunyasha09@gmail.com</li>
               <li><MdPhone /> +263786664875</li>
               <li><a href="https://wa.me/263786664875" target="_blank" rel="noopener noreferrer"><FaWhatsapp /> WhatsApp</a></li>
               <li><a href="https://www.linkedin.com/feed/"><FaLinkedin /> LinkedIn</a></li>
