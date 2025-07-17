@@ -69,7 +69,7 @@ const Contact = () => {
             <h4>Contact Info</h4>
             <ul>
               <li><MdEmail /> nyasha@example.com</li>
-              <li><MdPhone /> +263 786 664 875</li>
+              <li><MdPhone /> +263786664875</li>
               <li><a href="https://wa.me/263786664875" target="_blank" rel="noopener noreferrer"><FaWhatsapp /> WhatsApp</a></li>
               <li><a href="https://www.linkedin.com/feed/"><FaLinkedin /> LinkedIn</a></li>
               <li><a href="https://github.com/nyashanyakauru" target="_blank" rel="noopener noreferrer"><FaGithub /> GitHub</a></li>

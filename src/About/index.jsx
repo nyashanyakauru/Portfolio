@@ -6,11 +6,11 @@ import { DiAndroid, DiPython } from "react-icons/di";
 import { FaDatabase } from "react-icons/fa";
 
 const personalDetails = [
-    { label: "Name", value: "Nyasha Nyakauru" },
-    { label: "Gender", value: "Female" },
-    { label: "Address", value: "Harare, Zimbabwe" },
-    { label: "Email", value: "nyashanyakauru09@gmail.com" },
-    { label: "Contact No", value: "+263 786 667 845" },
+    { label: "Name", value:       "Nyasha Nyakauru" },
+    { label: "Gender", value:     "Female" },
+    { label: "Address", value:    "Harare, Zimbabwe" },
+    { label: "Email", value:      "nyakaurunyasha09@gmail.com" },
+    { label: "Contact No", value: "+263786664875" },
 ];
 
 const jobSummary = `
