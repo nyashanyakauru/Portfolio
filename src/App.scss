@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap');
+
+:root {
+  --yellow-theme-background-color: #1d1d1d;
+  --yellow-theme-main-color: #40ffdf;
+  --yellow-theme-sub-text-color: #ffffff;
+  --yellow-theme-nav-background-color: #181818;
+}
+
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  scroll-behavior: smooth;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: var(--yellow-theme-background-color);
+  min-height: 100vh; /* Allow full height */
+}
+
+#root {
+  min-height: 100vh; /* Use min-height for flexibility */
+}
+
+.App {
+  display: flex;
+  flex-direction: column; /* Stack the navbar and content */
+  height: 100%; /* Full height for App */
+}
+
+.App_home_page_content {
+
+  flex: 1; /* Take remaining space */
+}
+
+/* Media query for small devices */
+@media (max-width: 768px) {
+  .App_home_page_content {
+    height: 100vh; /* Full viewport height */
+    overflow-y: auto; /* Enable scrolling on small devices */
+  }
+}
+
+/* Media query for larger devices */
+@media (min-width: 769px) {
+  .App_home_page_content {
+    overflow-y: hidden; /* Disable scrolling on larger devices */
+    height: 100vh; /* Ensure it takes full viewport height */
+  }
+}
+
+section {
+  min-height: 100vh; /* Each section takes full viewport height */
+  padding: 5px; /* Add some padding */
+}
+
+#home{
+  min-height: 90vh;
+  padding: 5px;
+}
