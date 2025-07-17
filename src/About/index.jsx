@@ -7,7 +7,7 @@ import { FaDatabase } from "react-icons/fa";
 
 const personalDetails = [
     { label: "Name", value: "Nyasha Nyakauru" },
-    { label: "Age", value: "25" },
+    { label: "Gender", value: "Female" },
     { label: "Address", value: "Harare, Zimbabwe" },
     { label: "Email", value: "nyashanyakauru09@gmail.com" },
     { label: "Contact No", value: "+263 786 667 845" },
